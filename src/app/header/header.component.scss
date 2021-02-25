@@ -1,0 +1,8 @@
+.nav-link.active:after {
+    content: '';
+    display: block;
+    position: relative;
+    border-bottom: 1px solid var(--dark);
+    top: 4px;
+    width: 100%;
+}
